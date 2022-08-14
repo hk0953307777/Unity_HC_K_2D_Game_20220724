@@ -1,7 +1,6 @@
-
 using UnityEngine;
 
-namespace 喵喵
+namespace cat
 {
     /// <summary>
     /// <summary>類別摘要
@@ -13,15 +12,15 @@ namespace 喵喵
         /// </summary>
         private void Start()
         {
-        print("哈囉，沃德~");
+            print("哈囉，沃德~");
         }
-        
-       /// <summary>
-       /// 更新事件
-       /// </summary>
+
+        /// <summary>
+        /// 更新事件
+        /// </summary>
         private void Update()
         {
-        print("更新喵喵");
+            print("更新喵喵");
         }
 
         //單行註解:標記說明
