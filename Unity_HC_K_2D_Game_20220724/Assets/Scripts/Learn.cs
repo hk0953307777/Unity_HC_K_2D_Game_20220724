@@ -5,7 +5,7 @@ namespace cat
     /// <summary>
     /// <summary>類別摘要
     /// </summary>
-    public class NewBehaviourScript : MonoBehaviour
+    public class LearnAPI : MonoBehaviour
     {
         /// <summary>
         /// 摘要，簡短說明，不是必要但很重要
