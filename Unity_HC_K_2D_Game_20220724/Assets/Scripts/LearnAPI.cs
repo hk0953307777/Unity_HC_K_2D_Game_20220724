@@ -4,8 +4,8 @@ using UnityEngine;
 	/// </summary>
 	public class LearnAPI : MonoBehaviour
 	{
-    private Vector3 v3A = new Vector3(1, 1, 1);
-    private Vector3 v3B = new Vector3(22, 22, 22);
+    //private Vector3 v3A = new Vector3(1, 1, 1);
+    //private Vector3 v3B = new Vector3(22, 22, 22);
 
 		private void Start()
 		{
@@ -21,18 +21,18 @@ using UnityEngine;
          #endregion
 
         // 練習 取得靜態屬性 1~2
-        print($"攝影機數量{ Camera.allCamerasCount }");
-	    print($"平台{ Application.platform }");
+        //print($"攝影機數量{ Camera.allCamerasCount }");
+	    //print($"平台{ Application.platform }");
 
         Physics.sleepThreshold = 10;
         Time.timeScale = 0.5f;
-        print(Mathf.Round(2.5f));
-        print(Mathf.Floor(2.5f));
-        print(Mathf.Ceil(2.5F));
+        //print(Mathf.Round(2.5f));
+        //print(Mathf.Floor(2.5f));
+        //print(Mathf.Ceil(2.5F));
 
-        print($"A B 點距離 { Vector3.Distance(v3A, v3B)}");
+        //print($"A B 點距離 { Vector3.Distance(v3A, v3B)}");
 
-        Application.OpenURL("https://docs.unity3d.com/ScriptReference/");
+        //Application.OpenURL("https://docs.unity3d.com/ScriptReference/");
 
 
 
@@ -51,7 +51,7 @@ using UnityEngine;
         //print($"遊戲經過時間 {Time.time}");
         //print($"是否按下任意鍵 { Input.anyKeyDown}");
 
-        print($"是否按下空白 {Input.GetKeyDown(KeyCode.Space)}");
+        //print($"是否按下空白 {Input.GetKeyDown(KeyCode.Space)}");
     }
 
 

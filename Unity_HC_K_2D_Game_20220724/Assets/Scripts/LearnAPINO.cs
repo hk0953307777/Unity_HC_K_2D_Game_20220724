@@ -37,8 +37,8 @@ namespace pikachu
             //語法:欄位名稱.非靜態方法(對應引數)
             goKnight.SetActive(false);
 
-            print($"Camera Depth { cam.depth }");
-            print($"球體半徑 { sphereCollider.radius }");
+            //print($"Camera Depth { cam.depth }");
+            //print($"球體半徑 { sphereCollider.radius }");
 
             cam.backgroundColor = Random.ColorHSV();
             traCube.localScale = new Vector3(3, 2, 1);
@@ -46,8 +46,8 @@ namespace pikachu
 
         private void Update()
         {
-            traCube.RotateAround(traSphere.position, traSphere.forward, 5);
-            rigCapsule.AddForce(new Vector3(0, 10, 0));
+            //traCube.RotateAround(traSphere.position, traSphere.forward, 5);
+            //rigCapsule.AddForce(new Vector3(0, 10, 0));
         }
 
     }

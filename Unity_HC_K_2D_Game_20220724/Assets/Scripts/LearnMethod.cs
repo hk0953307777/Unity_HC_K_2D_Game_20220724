@@ -49,12 +49,12 @@ namespace cat
         private void AddTen(float number)
         {
             number = number + 10;
-            print("加十的結果:" + number);
+            //print("加十的結果:" + number);
         }
 
         private void Add(float numberA, float numberB)
         {
-            print("<color=yellow>數字相加的結果" + (numberA +numberB) + "</color>");
+            //print("<color=yellow>數字相加的結果" + (numberA +numberB) + "</color>");
         
         }
 
@@ -62,8 +62,8 @@ namespace cat
         //有預設值的參數:選擇式參數-必須寫在右邊，呼叫時不填會以預設帶入
         private void Skill(string skillType, string sound = "哒哒哒")
         {
-            print("施放技能特效:" + skillType);
-            print("技能音效:" + sound);
+            //print("施放技能特效:" + skillType);
+            //print("技能音效:" + sound);
         }
     }
 
