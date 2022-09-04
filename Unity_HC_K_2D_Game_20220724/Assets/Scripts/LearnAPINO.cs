@@ -1,6 +1,6 @@
 using UnityEngine;
 
-namespace pikachu
+namespace Pikachu
 {
     /// <summary>
     /// ¾Ç²ß«DÀRºA API
